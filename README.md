@@ -30,3 +30,6 @@
 <p align="justify">O censo Agrícola do IBGE indica que a agricultura familiar é a base econômica de 90% dos municípios brasileiros com até 20 mil habitantes, com uma produção diversificada de grãos, proteínas animal e vegetal, frutas, verduras e legumes. 
 <p align="justify">Embora evidente a importância da agricultura familiar para o pais, a falta de assistência técnica se mostra como agente contraditório para o desenvolvimento no campo, visto que o acompanhamento profissional paralelo a experiência cotidiana do produtor tornaria possível a criação de sistema agrícolas sustentáveis e lucrativos.
 <p align="justify">Contudo, os orgãos públicos responsáveis por oferecer assistência técnica agrícola não atende de forma eficaz a essa população e a pricipal justificativa apontada é o reduzido tamanho do corpo técnico dessas instituições, o que impossibilita orientação individualizada aos agricultores.
+<br>
+  
+## **Proposta**  
