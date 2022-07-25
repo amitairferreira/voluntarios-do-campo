@@ -28,6 +28,7 @@
 * [Tecnologias Utilizadas](#tecnologias)
 * [Bibliotecas Aplicadas](#bibliotecas)
 * [Arquitetura MVC](#arquitetura)
+* [Instruções](#instruções)
 
 ---
 
@@ -167,3 +168,9 @@ Foram aplicadas as seguintes bibliotecas neste projeto:
   |- 📑 server.js
   
   ```
+
+ ---
+  
+<div id='instruções'/>
+  
+## 📎 Instruções
