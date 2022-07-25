@@ -177,6 +177,14 @@ Foram aplicadas as seguintes bibliotecas neste projeto:
 
 Para a instalação do projeto, siga o seguinte passo a passo:
   
-No terminal do Git Bash, clone o projeto
+No terminal do Git Bash, clone o repositório
   
->
+>git clone https://github.com/amitairferreira/voluntarios-do-campo.git
+  
+Entre na pasta do projeto
+  
+>cd voluntarios-do-campo
+
+Instale as dependências
+  
+>npm install
