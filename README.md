@@ -8,12 +8,12 @@
 
 > Iniciativa que visa conectar produtores da agricultura familiar e profissionais voluntários.
 
-> Status: **em construção**
+
 
 <p align="justify">
   <a>
-     <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/amitairferreira/voluntarios-do-campo?color=pink">
-     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/amitairferreira/voluntarios-do-campo?color=pink">
+     <img src="http://img.shields.io/static/v1?label=Status&message=Em%20Desenvolvimento&color=pink&style?style=flat"/>
+     <img src="https://img.shields.io/github/last-commit/amitairferreira/voluntarios-do-campo?color=pink"/>
   </a>
 </p>
 
