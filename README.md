@@ -64,3 +64,4 @@
 - Pesquisar um profissional específico por Id
 - Atualizar cadastro do profissional
 - Deletar cadastro do profissional
+- Troca de mensagens entre produtor e profissional
