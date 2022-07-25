@@ -12,8 +12,8 @@
 
 <p align="justify">
   <a>
-     <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/amitairferreira/voluntarios-do-campo">
-    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/amitairferreira/voluntarios-do-campo">
+     <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/amitairferreira/voluntarios-do-campo?color=pink">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/amitairferreira/voluntarios-do-campo?color=pink">
   </a>
 </p>
 
