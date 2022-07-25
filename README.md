@@ -12,7 +12,7 @@
 
 <p align="justify">
   <a>
-     <img src="http://img.shields.io/static/v1?label=Status&message=Em%20Desenvolvimento&color=pink&style?style=flat"/>
+     <img src="http://img.shields.io/static/v1?label=status&message=Em%20Desenvolvimento&color=pink&style?style=flat"/>
      <img src="https://img.shields.io/github/last-commit/amitairferreira/voluntarios-do-campo?color=pink"/>
   </a>
 </p>
