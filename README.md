@@ -192,3 +192,9 @@ Instale as dependências
 Na pasta raiz do projeto renomeie .env.example para .env e adicione as variáveis. Em seguida, execute o servidor no terminal
   
 >npm run dev
+
+O servidor iniciará e exibirá a seguinte mensagem:
+  
+>Servidor rodando na porta: PORT
+  
+>Banco conectado (:
