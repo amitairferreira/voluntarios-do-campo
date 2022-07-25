@@ -177,7 +177,7 @@ Foram aplicadas as seguintes bibliotecas neste projeto:
 
 Para a instalação do projeto, siga o seguinte passo a passo:
   
-No terminal do Git Bash, clone o repositório
+No terminal, clone o repositório
   
 >git clone https://github.com/amitairferreira/voluntarios-do-campo.git
   
