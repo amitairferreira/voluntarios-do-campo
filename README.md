@@ -22,6 +22,7 @@
 
 * [Desafio](#desafio)
 * [Proposta](#proposta)
+* [Funcionalidades](#funcionalidades)
 
 ---
 
@@ -43,3 +44,23 @@
 
 <p align="justify">O projeto é uma API que permite a listagem de pequenos produtores da agricultura familiar, bem como listagem de profissionais da agropecuária como agrônomos, zootecnistas, veterinários e técnicos agrícolas. O cadastro é realizado de forma clara e intuitiva, permitindo que pessoas de qualquer grau de escolaridade tenha acesso de forma simples.
 <p align="justify">Ao realizar o cadastro, o produtor e profissional informam dados como endereço, principais atividades desenvolvidas e áreas de atuação. O produtor poderá pesquisar o técnico por profissão e cidade, será possível ainda, troca de mensagens entre ambos, possibilitando contato direto e dessa forma reduzindo a distância entre agricultura familiar e todo o acompanhamento técnico nescessário.
+
+---
+
+<div id='funcionalidades'/>
+
+## ⚙️ Funcionalidades
+
+- Cadastro, login, atualização e exclusão de usuários
+- Cadastro de produtores rurais da agricultura familiar
+- Listar todos os produtores cadastrados
+- Listar produtores por estado e/ou cidade
+- Pesquisar um produtor específico por Id
+- Atualizar cadastro do produtor
+- Deletar cadastro do produtor
+- Cadastrar profissional voluntário
+- Listar todos os profissionais cadastrados
+- Listar profissionais por cidade e/ou profissão
+- Pesquisar um profissional específico por Id
+- Atualizar cadastro do profissional
+- Deletar cadastro do profissional
