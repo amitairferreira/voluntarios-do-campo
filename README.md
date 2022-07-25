@@ -22,7 +22,9 @@
 
 * [Desafio](#desafio)
 * [Proposta](#proposta)
+* [Link Apresentação](#link)
 * [Funcionalidades](#funcionalidades)
+* [Tecnologias Utilizadas](#tecnologias)
 
 ---
 
@@ -47,6 +49,13 @@
 
 ---
 
+<div id='link'/>
+
+## Link Apresentação
+
+- [Apresentação]()
+
+---
 <div id='funcionalidades'/>
 
 ## ⚙️ Funcionalidades
@@ -65,3 +74,9 @@
 - Atualizar cadastro do profissional
 - Deletar cadastro do profissional
 - Troca de mensagens entre produtor e profissional
+
+---
+
+<div id='tecnologias'/>
+
+## 🛠 Tecnologias Utilizadas
