@@ -188,3 +188,7 @@ Entre na pasta do projeto
 Instale as dependências
   
 >npm install
+
+Na pasta raiz do projeto renomeie .env.example para .env e adicione as variáveis. Em seguida, execute o servidor no terminal
+  
+>npm run dev
