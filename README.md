@@ -174,3 +174,9 @@ Foram aplicadas as seguintes bibliotecas neste projeto:
 <div id='instruções'/>
   
 ## 📎 Instruções
+
+Para a instalação do projeto, siga o seguinte passo a passo:
+  
+No terminal do Git Bash, clone o projeto
+  
+>
