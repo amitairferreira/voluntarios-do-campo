@@ -16,7 +16,7 @@
     <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/amitairferreira/voluntarios-do-campo">
   </a>
 </p>
-<br>
+
 
 ## **Sumário**
 
@@ -26,6 +26,7 @@
 * [Funcionalidades](#funcionalidades)
 * [Tecnologias Utilizadas](#tecnologias)
 * [Bibliotecas Aplicadas](#bibliotecas)
+* [Arquitetura MVC](#arquitetura)
 
 ---
 
@@ -111,3 +112,57 @@ Foram aplicadas as seguintes bibliotecas neste projeto:
 <a  href="https://www.npmjs.com/"><img  alt="npm version"  src="https://img.shields.io/badge/npm-6.14.6-pink">
 <a  href="https://www.npmjs.com/package/bcryptjs"><img  alt="Bcrypt version"  src="https://img.shields.io/badge/bcrypt-5.0.0-pink">
 <a  href="https://www.npmjs.com/package/jsonwebtoken"><img  alt="Jsonwebtoken version"  src="https://img.shields.io/badge/jsonwebtoken-8.5.1-pink"></a>
+
+ ---
+  
+<div id='arquitetura'/>
+  
+## 📁 Arquitetura MVC
+
+```
+  
+📁 voluntarios-do-campo
+  |
+  |- 📁 src
+  |   |
+  |   |- 📁 controller
+  |         |- 📑 farmerController.js
+  |         |- 📑 messageController.js
+  |         |- 📑 professionalController.js
+  |         |- 📑 userController.js
+  |
+  |   |- 📁 database
+  |         |- 📑 mongoConfig.js
+  |
+  |   |- 📁 helpers
+  |         |- 📑 hashPassword.js
+  |
+  |   |- 📁 middlewares
+  |         |- 📑 auth.js
+  |
+  |   |- 📁  models
+  |         |- 📑 farmerSchema.js
+  |         |- 📑 messageSchema.js
+  |         |- 📑 professionalSchema.js
+  |         |- 📑 userSchema.js
+  |
+  |   |- 📁 routes
+  |         |- 📑 farmerRoutes.js
+  |         |- 📑 indexRoutes.js
+  |         |- 📑 messageRoutes.js
+  |         |- 📑 professionalRoutes.js
+  |         |- 📑 userRoutes.js
+  |
+  |   |- 📑 app.js
+  |
+  |
+  |- 📑 .env
+  |- 📑 .env.example
+  |- 📑 .gitignore
+  |- 📑 package-lock.json
+  |- 📑 package.json
+  |- 📑 procfile
+  |- 📑 README.md
+  |- 📑 server.js
+  
+  ```
