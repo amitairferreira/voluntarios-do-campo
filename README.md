@@ -29,6 +29,7 @@
 * [Bibliotecas Aplicadas](#bibliotecas)
 * [Arquitetura MVC](#arquitetura)
 * [Instruções](#instruções)
+* [Portas](#portas)
 
 ---
 
@@ -198,3 +199,9 @@ O servidor iniciará e exibirá a seguinte mensagem:
 >Servidor rodando na porta: PORT
   
 >Banco conectado (:
+
+---
+  
+<div id='portas'/>
+  
+## ⚙️ Portas
