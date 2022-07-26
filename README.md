@@ -212,3 +212,9 @@ O servidor iniciará e exibirá a seguinte mensagem:
 >Heroku: https://voluntarios-do-campo.herokuapp.com/
 
 > Utilize o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download/) para testar os endpoints da API localmente.
+
+---
+  
+<div id='manipulação'/>
+  
+## 🔃 Manipulação das rotas
