@@ -1,4 +1,5 @@
 
+---
 <br>
 
 <div align="center">
@@ -18,11 +19,13 @@
   </a>
 </p>
 
+---
 
 ## **Sumário**
 
 * [Desafio](#desafio)
 * [Proposta](#proposta)
+* [Aprendizados](#aprendizados)
 * [Link Apresentação](#link)
 * [Funcionalidades](#funcionalidades)
 * [Tecnologias Utilizadas](#tecnologias)
@@ -35,7 +38,6 @@
 * [Dados para as collections](#dados)
 * [API](#api)
 * [Futuras Melhorias](#futuras)
-* [Aprendizados](#aprendizados)
 
 ---
 
@@ -57,6 +59,14 @@
 
 <p align="justify">O projeto é uma API que permite a listagem de pequenos produtores da agricultura familiar, bem como listagem de profissionais da agropecuária como agrônomos, zootecnistas, veterinários e técnicos agrícolas. O cadastro é realizado de forma clara e intuitiva, permitindo que pessoas de qualquer grau de escolaridade tenha acesso de forma simples.
 <p align="justify">Ao realizar o cadastro, o produtor e profissional informam dados como endereço, principais atividades desenvolvidas e áreas de atuação. O produtor poderá pesquisar o técnico por profissão e cidade, será possível ainda, troca de mensagens entre ambos, possibilitando contato direto e dessa forma reduzindo a distância entre agricultura familiar e todo o acompanhamento técnico nescessário.
+
+---
+
+<div id='aprendizados'/>
+  
+## 📚 Aprendizados
+
+<p align="justify">Voluntários do campo é fruto do bootcamp toda em tech {Reprograma}, cujo projeto de conclusão é uma API Rest fundamentada no método CRUD, que são: Create (criar), Read (leitura), Update (atualizar), Delete (deletar). A API está conectada ao banco de dados NoSQL mongoDB e documentada no presente repositório.
 
 ---
 
@@ -443,3 +453,5 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 <div id='aprendizados'/>
   
 ## 📚 Aprendizados
+
+<p align="justify">Voluntários do campo é fruto do bootcamp todas em teck da {Reprograma}, em que o desafio de conclusão consistia na construção de uma API que executasse um CRUD em um banco de dados, realização do deploy desse projeto no heroko e documentação no presente repositório
