@@ -39,6 +39,7 @@
 * [API](#api)
 * [Futuras Melhorias](#futuras)
 * [Agradecimentos](#agradecimentos)
+* [Autora](#autora)
 
 ---
 
@@ -456,3 +457,9 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
  ## 💜 Agradecimentos
 
 <p align="justify">A frase que representa a {Reprograma} é "Acreditem no processo". E eu, assim como tantas outras mulheres que a reprograma abraçou, acreditamos e como recompensa, construímos uma trajetória linda de muito aprendizado e parcerias. Aprender algo novo não é fácil, mas quando existe uma rede de apoio e acolhimento, o caminho fica bem mais leve. Minha gratidão à todas as mulheres incíveis que a reprograma colocou no meu caminho é infinita. Meu maior desejo hoje, é que iniciativas como a reprograma se multipliquem e alcance muitas e muitas mulheres mundo a fora.
+
+---
+  
+<div id='Autora'/>
+  
+## Autora
