@@ -222,3 +222,13 @@ O servidor iniciará e exibirá a seguinte mensagem:
 | Método HTTP  | Endpoint                     | Descrição                            |
 | ------------ | ---------------------------- | ------------------------------------ |
 | GET          | `http://localhost:8080/`     |  Mensagem de apresentação            |
+
+>Rotas dos usuários:
+  
+| Método HTTP  | Endpoint                     | Descrição                            |
+| ------------ | ---------------------------- | ------------------------------------ |
+| POST         | `user/create`                |  Cadastra novo usuário               |
+| GET          | `user/all`                   |  Retorna todos os usuários cadastrados|
+| POST         | `user/login`                 | Realiza o login do usuário            |
+| PATCH        | `user/update/:id`            | Atualiza email e/ou senha do usuário  |
+| DELETE       | `user/delete/:id`            | Exclui usuário                        |
