@@ -34,6 +34,7 @@
 * [Rotas Privadas](#rotasp)
 * [Dados para as collections](#dados)
 * [API](#api)
+* [Aprendizados](#aprendizados)
 
 ---
 
@@ -400,3 +401,10 @@ O servidor iniciará e exibirá a seguinte mensagem:
       "updatedAt": "2022-07-19T23:11:41.932Z",
       "__v": 0
     }
+
+ ```
+---
+
+<div id='aprendizados'/>
+  
+## 📚 Aprendizados
