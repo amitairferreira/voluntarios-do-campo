@@ -410,8 +410,12 @@ O servidor iniciará e exibirá a seguinte mensagem:
   
 ## 🚧 Futuras Melhorias
 
->Implementar teste unitário ao projeto
+>Implementar teste unitário ao código do projeto
 
 <br>
 
 >Adicionar produtos e consumidores, permitindo que produtos oriundos da agricultura familiar seja comecializado na própria plataforma
+
+ <br>
+  
+>Implementar a opção do produtor realizar feedback do profissional, de modo que os demais produtores tenham acesso
