@@ -377,3 +377,26 @@ O servidor iniciará e exibirá a seguinte mensagem:
       "__v": 0
     }
 ```
+<br>
+  
+>A API deve retornar o seguinte json para profissionais:
+  
+```jsx
+  {
+  "message": "Lista de Profissionais.",
+  "professionalall": [
+    {
+      "_id": "62d73a2db77c62a4fe448f9c",
+      "name": "Amitair Ferreira ",
+      "profession": "Agrônoma",
+      "registryNumber": "995600",
+      "mainArea": "Fruticultura ",
+      "state": "Ceará",
+      "city": "Fortaleza",
+      "email": "amitairagro@gmail.com",
+      "contact": "(85) 981081010",
+      "termOfCompromise": true,
+      "createdAt": "2022-07-19T23:11:41.932Z",
+      "updatedAt": "2022-07-19T23:11:41.932Z",
+      "__v": 0
+    }
