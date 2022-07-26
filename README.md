@@ -29,7 +29,8 @@
 * [Bibliotecas Aplicadas](#bibliotecas)
 * [Arquitetura MVC](#arquitetura)
 * [Instruções](#instruções)
-* [Portas](#portas)
+* [Rotas](#rotas)
+* [Manipulação das rotas](#manipulação)
 
 ---
 
@@ -202,6 +203,12 @@ O servidor iniciará e exibirá a seguinte mensagem:
 
 ---
   
-<div id='portas'/>
+<div id='rotas'/>
   
-## ⚙️ Portas
+## ⚙️ Rotas
+
+>Local: http://localhost:8080
+
+>Heroku: https://voluntarios-do-campo.herokuapp.com/
+
+> Utilize o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download/) para testar os endpoints da API localmente.
