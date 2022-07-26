@@ -33,6 +33,7 @@
 * [Rotas](#rotas)
 * [Rotas Privadas](#rotasp)
 * [Dados para as collections](#dados)
+* [API](#api)
 
 ---
 
@@ -344,3 +345,9 @@ O servidor iniciará e exibirá a seguinte mensagem:
 - tipo de usuário: texto e obrigatório
 - email: texto e obrigatório
 - senha: texto e obrigatório
+
+---
+
+<div id='api'/>
+  
+## ✔️ API
