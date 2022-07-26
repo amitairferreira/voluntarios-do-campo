@@ -325,3 +325,22 @@ O servidor iniciará e exibirá a seguinte mensagem:
 - email: texto e obrigatório
 - contato: texto e obrigatório
 - termo de compromisso: booleano e obrigatório
+<br>
+  
+>Collection Mensagens
+ - id: gerado automaticamente
+ - id de quem envia: objectId e obrigatório
+ - id de quem irá receber: objectId e obrigatório
+ - tipo de usuário: texto e obrigatório
+ - nome de quem enviou: texto e obrigatório
+ - nome de quem irá receber: texto e obrigatório
+ - título: texto e obrigatório
+ - menssagem: texto e obrigatório
+<br>
+  
+>Collection Usuários
+- id: gerado automaticamente
+- nome: texto e obrigatório
+- tipo de usuário: texto e obrigatório
+- email: texto e obrigatório
+- senha: texto e obrigatório
