@@ -450,8 +450,4 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 
 ---
   
-<div id='aprendizados'/>
-  
-## 📚 Aprendizados
 
-<p align="justify">Voluntários do campo é fruto do bootcamp todas em teck da {Reprograma}, em que o desafio de conclusão consistia na construção de uma API que executasse um CRUD em um banco de dados, realização do deploy desse projeto no heroko e documentação no presente repositório
