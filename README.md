@@ -278,6 +278,8 @@ O servidor iniciará e exibirá a seguinte mensagem:
 
 ## 🔐 Rotas privadas:
 
+> Para ter acesso as rotas privadas é necessário primeiramente criar registro de usuário, depois realizar o login, copiar o token de autenticação. Ir na aba de Authorization no Type escolher `Bearer Token` e no campo token colar o código que foi copiado
+  
 | Método HTTP  | Endpoint                       | Descrição                                           |
 | ------------ | ----------------------------   | ----------------------------------------------------| 
 | PATCH        | `user/update/:id`              | Atualiza email e/ou senha do usuário                |
@@ -289,5 +291,3 @@ O servidor iniciará e exibirá a seguinte mensagem:
 | DELETE       | `farmer/delete/:id`            | Deleta cadastro do produtor                         |
 | PATCH        | `professional/update/:id`      | Atualiza dados cadastrais do profissional           |
 | DELETE       | `professional/delete/:id`      | Deleta cadastro do profissional                     |
-
-
