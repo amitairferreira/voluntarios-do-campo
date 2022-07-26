@@ -229,24 +229,24 @@ O servidor iniciará e exibirá a seguinte mensagem:
   
 | Método HTTP  | Endpoint                     | Descrição                                   |
 | ------------ | ---------------------------- | --------------------------------------------| 
-| POST         | `user/create`                |  Cadastra novo usuário                      |
-| GET          | `user/all`                   |  Retorna todos os usuários cadastrados      |
+| POST         | `user/create`                | Cadastra novo usuário                       |
+| GET          | `user/all`                   | Retorna todos os usuários cadastrados       |
 | POST         | `user/login`                 | Realiza o login do usuário                  |
 | PATCH        | `user/update/:id`            | Atualiza email e/ou senha do usuário        |
 | DELETE       | `user/delete/:id`            | Exclui usuário                              |
 
 <br>
   
-### Rotas para produtoes:
+### Rotas para produtores:
   
-| Método HTTP  | Endpoint                     | Descrição                                   |
-| ------------ | ---------------------------- | --------------------------------------------| 
-| POST         | `farmer/create`              |  Cadastra novo  produtor                    |
-| GET          | `farmer/all`                 |  Retorna todos os produtores cadastrados    |
-| GET          | `farmer/byStateCity`         | Pesquisa produtor por estado e/ou por cidade| 
-| GET          | `farmer/byId/:id`            | Pesquisa um produtor específico             |
-| PATCH        | `farmer/update/:id`          | Atualiza dados do produtor                  |
-| DELETE       |  `farmer/delete/:id`         | Deleta cadastro do produtor                 |
+| Método HTTP  | Endpoint                     | Descrição                                             |
+| ------------ | ---------------------------- | ------------------------------------------------------|
+| POST         | `farmer/create`              | Cadastra novo  produtor                               |
+| GET          | `farmer/all`                 | Retorna todos os produtores cadastrados               |
+| GET          | `farmer/byStateCity`         | Pesquisa produtor por estado e/ou por cidade          | 
+| GET          | `farmer/byId/:id`            | Pesquisa um produtor específico                       |
+| PATCH        | `farmer/update/:id`          | Atualiza dados do produtor                            |
+| DELETE       |  `farmer/delete/:id`         | Deleta cadastro do produtor                           |
   
 <br>  
 
@@ -260,3 +260,13 @@ O servidor iniciará e exibirá a seguinte mensagem:
 | GET          | `professional/byId/:id`        | Pesquisa um profissional específico                 |
 | PATCH        | `professional/update/:id`      | Atualiza dados do profissional                      |
 | DELETE       |  `professional/delete/:id`     | Deleta cadastro do profissional                     |
+
+<br>  
+  
+### Rotas para troca de mensagens
+  
+| Método HTTP  | Endpoint                       | Descrição                                           |
+| ------------ | ----------------------------   | ----------------------------------------------------| 
+| POST         | `message/send`                 | Envia mensagem                                      |
+| GET          | `message/sendTo`               | Retorna todas as mensagens enviadas pelo usuário    |
+| GET          | `message/received`             | Retorna todas as mensagens recebidas pelo usuário   | 
