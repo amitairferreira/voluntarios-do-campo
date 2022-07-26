@@ -437,3 +437,9 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 <br>
   
 >Implementar interface front-end
+
+---
+  
+<div id='aprendizados'/>
+  
+## 📚 Aprendizados
