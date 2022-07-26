@@ -351,3 +351,29 @@ O servidor iniciará e exibirá a seguinte mensagem:
 <div id='api'/>
   
 ## ✔️ API
+
+>A API deve retornar o seguinte json para produtores:
+
+```jsx
+{
+  "message": "Produtores cadastrados:",
+  "farmerAll":
+    {
+      "_id": "62d738cdb77c62a4fe448f90",
+      "name": "Francisco Ferreira Lima",
+      "state": "Ceará",
+      "city": "Aratuba",
+      "road": "Rua Segredo",
+      "number": 706,
+      "registryCar": "CE-168546dckndnfjd584fd",
+      "cultivatedArea": "3,0 ha",
+      "activities": "Produção de hortaliças",
+      "organicCultivation": true,
+      "email": "fl@gmail.com",
+      "contact": "(85) 98108-2606",
+      "termOfCompromise": true,
+      "createdAt": "2022-07-19T23:05:49.127Z",
+      "updatedAt": "2022-07-19T23:05:49.127Z",
+      "__v": 0
+    }
+```
