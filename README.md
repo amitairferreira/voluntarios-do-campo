@@ -223,12 +223,40 @@ O servidor iniciará e exibirá a seguinte mensagem:
 | ------------ | ---------------------------- | ------------------------------------ |
 | GET          | `http://localhost:8080/`     |  Mensagem de apresentação            |
 
->Rotas dos usuários:
+<br>
   
-| Método HTTP  | Endpoint                     | Descrição                            |
-| ------------ | ---------------------------- | ------------------------------------ |
-| POST         | `user/create`                |  Cadastra novo usuário               |
-| GET          | `user/all`                   |  Retorna todos os usuários cadastrados|
-| POST         | `user/login`                 | Realiza o login do usuário            |
-| PATCH        | `user/update/:id`            | Atualiza email e/ou senha do usuário  |
-| DELETE       | `user/delete/:id`            | Exclui usuário                        |
+ ### Rotas dos usuários: 
+  
+| Método HTTP  | Endpoint                     | Descrição                                   |
+| ------------ | ---------------------------- | --------------------------------------------| 
+| POST         | `user/create`                |  Cadastra novo usuário                      |
+| GET          | `user/all`                   |  Retorna todos os usuários cadastrados      |
+| POST         | `user/login`                 | Realiza o login do usuário                  |
+| PATCH        | `user/update/:id`            | Atualiza email e/ou senha do usuário        |
+| DELETE       | `user/delete/:id`            | Exclui usuário                              |
+
+<br>
+  
+### Rotas para produtoes:
+  
+| Método HTTP  | Endpoint                     | Descrição                                   |
+| ------------ | ---------------------------- | --------------------------------------------| 
+| POST         | `farmer/create`              |  Cadastra novo  produtor                    |
+| GET          | `farmer/all`                 |  Retorna todos os produtores cadastrados    |
+| GET          | `farmer/byStateCity`         | Pesquisa produtor por estado e/ou por cidade| 
+| GET          | `farmer/byId/:id`            | Pesquisa um produtor específico             |
+| PATCH        | `farmer/update/:id`          | Atualiza dados do produtor                  |
+| DELETE       |  `farmer/delete/:id`         | Deleta cadastro do produtor                 |
+  
+<br>  
+
+### Rotas para profissionais:
+  
+| Método HTTP  | Endpoint                       | Descrição                                           |
+| ------------ | ----------------------------   | ----------------------------------------------------| 
+| POST         | `professional/create`          | Cadastra novo profissional                          |
+| GET          | `professional/all`             | Retorna todos os profissionais cadastrados          |
+| GET          | `professional/byCityProfession`| Pesquisa profissional por cidade e/ou por profissão | 
+| GET          | `professional/byId/:id`        | Pesquisa um profissional específico                 |
+| PATCH        | `professional/update/:id`      | Atualiza dados do profissional                      |
+| DELETE       |  `professional/delete/:id`     | Deleta cadastro do profissional                     |
