@@ -39,7 +39,7 @@
 * [API](#api)
 * [Futuras Melhorias](#futuras)
 * [Agradecimentos](#agradecimentos)
-* [Autora](#autora)
+* [Sobre a autora](#autora)
 
 ---
 
@@ -462,4 +462,4 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
   
 <div id='Autora'/>
   
-## Autora
+## ☕ Sobre a autora
