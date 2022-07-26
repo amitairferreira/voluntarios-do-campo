@@ -34,6 +34,7 @@
 * [Rotas Privadas](#rotasp)
 * [Dados para as collections](#dados)
 * [API](#api)
+* [Futuras Melhorias](#futuras)
 * [Aprendizados](#aprendizados)
 
 ---
@@ -405,6 +406,6 @@ O servidor iniciará e exibirá a seguinte mensagem:
  ```
 ---
 
-<div id='aprendizados'/>
+<div id='futuras'/>
   
-## 📚 Aprendizados
+## 🚧 Futuras Melhorias
