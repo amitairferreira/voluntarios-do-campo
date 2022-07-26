@@ -384,7 +384,7 @@ O servidor iniciará e exibirá a seguinte mensagem:
 ```jsx
   {
   "message": "Lista de Profissionais.",
-  "professionalall": [
+  "professionalall":
     {
       "_id": "62d73a2db77c62a4fe448f9c",
       "name": "Amitair Ferreira ",
