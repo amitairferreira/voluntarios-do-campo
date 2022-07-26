@@ -409,3 +409,9 @@ O servidor iniciará e exibirá a seguinte mensagem:
 <div id='futuras'/>
   
 ## 🚧 Futuras Melhorias
+
+>Implementar teste unitário ao projeto
+
+<br>
+
+>Adicionar produtos e consumidores, permitindo que produtos oriundos da agricultura familiar seja comecializado na própria plataforma
