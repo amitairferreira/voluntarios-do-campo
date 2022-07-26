@@ -433,3 +433,7 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
  <br>
   
 >Implementar a opção do produtor realizar feedback do profissional, de modo que os demais produtores tenham acesso
+
+<br>
+  
+>Implementar interface front-end
