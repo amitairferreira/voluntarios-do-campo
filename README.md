@@ -29,8 +29,9 @@
 * [Bibliotecas Aplicadas](#bibliotecas)
 * [Arquitetura MVC](#arquitetura)
 * [Instruções](#instruções)
+* [Portas](#portas)
 * [Rotas](#rotas)
-* [Manipulação das rotas](#manipulação)
+* [Rotas Privadas](#rotasp)
 
 ---
 
@@ -203,9 +204,9 @@ O servidor iniciará e exibirá a seguinte mensagem:
 
 ---
   
-<div id='rotas'/>
+<div id='portas'/>
   
-## ⚙️ Rotas
+## ⚙️ Portas
 
 >Local: http://localhost:8080
 
@@ -215,9 +216,9 @@ O servidor iniciará e exibirá a seguinte mensagem:
 
 ---
   
-<div id='manipulação'/>
+<div id='rotas'/>
   
-## 🔃 Manipulação das rotas
+## 🔃 Rotas
 
 | Método HTTP  | Endpoint                     | Descrição                            |
 | ------------ | ---------------------------- | ------------------------------------ |
@@ -263,10 +264,30 @@ O servidor iniciará e exibirá a seguinte mensagem:
 
 <br>  
   
-### Rotas para troca de mensagens
+### Rotas para troca de mensagens:
   
 | Método HTTP  | Endpoint                       | Descrição                                           |
 | ------------ | ----------------------------   | ----------------------------------------------------| 
 | POST         | `message/send`                 | Envia mensagem                                      |
 | GET          | `message/sendTo`               | Retorna todas as mensagens enviadas pelo usuário    |
 | GET          | `message/received`             | Retorna todas as mensagens recebidas pelo usuário   | 
+
+---
+
+<div id='rotasp'/>
+
+## 🔐 Rotas privadas:
+
+| Método HTTP  | Endpoint                       | Descrição                                           |
+| ------------ | ----------------------------   | ----------------------------------------------------| 
+| PATCH        | `user/update/:id`              | Atualiza email e/ou senha do usuário                |
+| DELETE       | `user/delete/:id`              | Exclui usuário                                      |
+| POST         | `message/send`                 | Troca de mensagens entre usuários                   |
+| GET          | `message/sendTo`               | Retorna todas as mensagens enviadas pelo usuário    |
+| GET          | `message/received`             | Retorna todas as mensagens recebidas pelo usuário   |
+| PATCH        | `farmer/update/:id`            | Atualiza dados cadastrais do produtor               |
+| DELETE       | `farmer/delete/:id`            | Deleta cadastro do produtor                         |
+| PATCH        | `professional/update/:id`      | Atualiza dados cadastrais do profissional           |
+| DELETE       | `professional/delete/:id`      | Deleta cadastro do profissional                     |
+
+
