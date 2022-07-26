@@ -218,3 +218,7 @@ O servidor iniciará e exibirá a seguinte mensagem:
 <div id='manipulação'/>
   
 ## 🔃 Manipulação das rotas
+
+| Método HTTP  | Endpoint                     | Descrição                            |
+| ------------ | ---------------------------- | ------------------------------------ |
+| GET          | `http://localhost:8080/`     |  Mensagem de apresentação    |             |
