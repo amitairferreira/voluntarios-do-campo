@@ -306,9 +306,22 @@ O servidor iniciará e exibirá a seguinte mensagem:
 - cidade: texto e obrigatório
 - rua: texto e obrigatório
 - número: numeração e obrigatório
-- Registro do cadastro ambiental rural: texto e obrigatório
-- Atividades desenvolvidas na propriedade: texto e obrigatório
-- Cultivo orgânico: booleano e obrigatório
-- Email: texto e obrigatório
-- Contato: texto e obrigatório
-- Termo d compromisso: booleano e obrigatório
+- registro do cadastro ambiental rural: texto e obrigatório
+- atividades desenvolvidas na propriedade: texto e obrigatório
+- cultivo orgânico: booleano e obrigatório
+- email: texto e obrigatório
+- contato: texto e obrigatório
+- termo de compromisso: booleano e obrigatório
+<br>
+
+>Collection Profissionais
+- id: gerado automaticamente
+- nome: texto e obrigatório
+- profissão: texto e obrigatório
+- registro profissional: texto e obrigatório
+- área principal de atuação: texto e obrigatório
+- estao: texto e obrigatório
+- cidade: texto e obrigatório
+- email: texto e obrigatório
+- contato: texto e obrigatório
+- termo de compromisso: booleano e obrigatório
