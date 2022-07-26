@@ -221,4 +221,4 @@ O servidor iniciará e exibirá a seguinte mensagem:
 
 | Método HTTP  | Endpoint                     | Descrição                            |
 | ------------ | ---------------------------- | ------------------------------------ |
-| GET          | `http://localhost:8080/`     |  Mensagem de apresentação    |             |
+| GET          | `http://localhost:8080/`     |  Mensagem de apresentação            |
