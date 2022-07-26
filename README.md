@@ -183,15 +183,19 @@ Foram aplicadas as seguintes bibliotecas neste projeto:
 ## 📎 Instruções
 
 Para a instalação do projeto, siga o seguinte passo a passo:
-  
-No terminal, clone o repositório
-  
->git clone https://github.com/amitairferreira/voluntarios-do-campo.git
-  
-Entre na pasta do projeto
-  
->cd voluntarios-do-campo
 
+Faça um fork do repositório
+
+>Fork através do link [voluntarios do campo](https://github.com/amitairferreira/voluntarios-do-campo/fork).
+
+No terminal, clone o fork do repositório
+  
+>git clone https://github.com/user/voluntarios-do-campo.git
+  
+Crie uma branch para realizar suas contribuições
+
+>git checkout -b nome-da-sua-branch
+ 
 Instale as dependências
   
 >npm install
@@ -205,6 +209,16 @@ O servidor iniciará e exibirá a seguinte mensagem:
 >Servidor rodando na porta: PORT
   
 >Banco conectado (:
+
+Após suas contribuições no projeto, realize o commit
+
+>git commit -m 'sua mensagem'
+
+Para subir o projeto no seu gitHub, execute o comando
+
+>git push origin nome-da-sua-branch
+
+Finalize criando um novo Pull Request com as contribuições para o projeto original.
 
 ---
   
