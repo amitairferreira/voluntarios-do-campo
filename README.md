@@ -38,6 +38,7 @@
 * [Dados para as collections](#dados)
 * [API](#api)
 * [Futuras Melhorias](#futuras)
+* [Agradecimentos](#agradecimentos)
 
 ---
 
@@ -450,4 +451,6 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 
 ---
   
-
+<div id='agradecimentos'/>
+  
+ ## 💜 Agradecimentos
