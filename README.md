@@ -308,7 +308,7 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 
 ## 🔐 Rotas privadas
 
-> Para ter acesso as rotas privadas é necessário primeiramente criar registro de usuário, depois realizar o login, copiar o token de autenticação. Ir na aba de Authorization no Type escolher `Bearer Token` e no campo token colar o código que foi copiado
+> Para ter acesso as rotas privadas é necessário primeiramente criar registro de usuário (ou acesse com o seguinte usuário de teste, email: fl@gmail.com, senha: 14051994), depois realizar o login, copiar o token de autenticação. Ir na aba de Authorization no Type escolher `Bearer Token` e no campo token colar o código que foi copiado
   
 | Método HTTP  | Endpoint                       | Descrição                                           |
 | ------------ | ----------------------------   | ----------------------------------------------------| 
