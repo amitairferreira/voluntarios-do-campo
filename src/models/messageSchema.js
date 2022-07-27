@@ -30,6 +30,14 @@ const messageSchema = new mongoose.Schema(
     text: {
       type: String,
       required: true
+    },
+    hideToFarmer: {
+      type: Boolean,
+      default: false
+    },
+    hideToProfessional: {
+      type: Boolean,
+      default: false
     }
   },
   { timestamps: true }

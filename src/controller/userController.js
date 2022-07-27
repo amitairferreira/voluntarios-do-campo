@@ -34,18 +34,18 @@ const userCreate = async (req, res) => {
   }
 }
 
-const userAll = async (req, res) => {
+const userById = async (req, res) => {
   try {
-    const usersAll = await UserSchema.find()
-    if(usersAll.length == 0) {
+    const user = await UserSchema.findById(req.params.id)
+
+    if (!user) {
       return res.status(404).json({
-        message: 'Não há usuários cadastrados'
+        message: 'Cadastro não encontrado'
       })
     }
-
     res.status(200).json({
-      message: 'Usuários cadastrados:',
-      usersAll
+      message: 'Usuário:',
+      user
     })
   } catch (error) {
     res.status(500).json({
@@ -53,6 +53,7 @@ const userAll = async (req, res) => {
     })
   }
 }
+
 
 const login = async (req, res) => {
   try {
@@ -68,17 +69,18 @@ const login = async (req, res) => {
 
     const checkPassword = await bcrypt.compare(password, user.password)
 
-    if(!checkPassword) {
+    if (!checkPassword) {
       return res.status(400).json({
         message: 'Email ou senha incorreto.'
       })
     }
 
     const SECRET = process.env.SECRET
-    const token = jwt.sign({id: user._id, email: user.email}, SECRET)
+    const token = jwt.sign({ id: user._id, email: user.email }, SECRET)
 
     res.status(200).json({
       message: 'Login efetuado com sucesso.',
+      user_id: user._id,
       token
     })
   } catch (error) {
@@ -92,7 +94,7 @@ updateUser = async (req, res) => {
   try {
     const user = await UserSchema.findById(req.params.id)
 
-    if(user) {
+    if (user) {
       user.name = req.body.name || user.name
       user.typeUser = req.body.typeUser || user.typeUser
       user.email = req.body.email || user.email
@@ -123,7 +125,7 @@ const deleteUser = async (req, res) => {
   try {
     const user = await UserSchema.findById(req.params.id)
 
-    if(user == null) {
+    if (user == null) {
       res.status(404).json({
         message: 'Usuário não encontrado.'
       })
@@ -141,10 +143,9 @@ const deleteUser = async (req, res) => {
   }
 }
 
-
 module.exports = {
   userCreate,
-  userAll,
+  userById,
   login,
   updateUser,
   deleteUser

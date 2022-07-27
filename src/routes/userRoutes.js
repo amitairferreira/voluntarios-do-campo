@@ -5,7 +5,7 @@ const express = require('express')
 const router = express.Router()
 
 router.post('/create', controller.userCreate)
-router.get('/all', controller.userAll)
+router.get('/getUser/:id', checkAuth, controller.userById)
 router.post('/login', controller.login)
 router.patch('/update/:id', checkAuth, controller.updateUser)
 router.delete('/delete/:id', checkAuth, controller.deleteUser)
