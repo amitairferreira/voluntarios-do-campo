@@ -453,7 +453,7 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 
 <br>
   
-> Adicionar perfil de usuario para incluir ações admninstrativas(ex: listar todos os usuarios) 
+> Adicionar perfil de usuario para incluir ações admninstrativas (ex: listar todos os usuarios) 
   
 ---
   
