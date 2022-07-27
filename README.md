@@ -468,3 +468,7 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 <div id='Autora'/>
   
 ## ☕ Sobre a autora
+
+<br>
+
+<img style="border-radius: 20%;" src="https://unavatar.now.sh/github/amitairferreira" width="200px;" alt=""/> </td><br>
