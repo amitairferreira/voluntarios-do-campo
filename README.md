@@ -261,7 +261,7 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 | Método HTTP  | Endpoint                     | Descrição                                   |
 | ------------ | ---------------------------- | --------------------------------------------| 
 | POST         | `user/create`                | Cadastra novo usuário                       |
-| GET          | `user/all`                   | Retorna todos os usuários cadastrados       |
+| GET          | `user/getUser/:id`           | Retorna informações do usuário              |
 | POST         | `user/login`                 | Realiza o login do usuário                  |
 | PATCH        | `user/update/:id`            | Atualiza email e/ou senha do usuário        |
 | DELETE       | `user/delete/:id`            | Exclui usuário                              |
