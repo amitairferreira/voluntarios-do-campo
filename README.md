@@ -469,6 +469,7 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
   
 ## ☕ Sobre a autora
 
-<br>
+<img style="border-radius: 20%;" src="https://user-images.githubusercontent.com/100969789/181139847-b838d5e1-9747-4768-a36e-000b575d6b1f.jpeg" width="100px;" alt=""/> </td><br>
 
-<img style="border-radius: 20%;" src="https://unavatar.now.sh/github/amitairferreira" width="200px;" alt=""/> </td><br>
+
+**By Amitair Ferreira**.
