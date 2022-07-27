@@ -311,7 +311,8 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 > Para ter acesso as rotas privadas é necessário primeiramente criar registro de usuário (ou acesse com o seguinte usuário de teste, email: `fl@gmail.com`, senha: `14051994`), depois realizar o login, copiar o token de autenticação. Ir na aba de Authorization no Type escolher `Bearer Token` e no campo token colar o código que foi copiado
   
 | Método HTTP  | Endpoint                       | Descrição                                           |
-| ------------ | ----------------------------   | ----------------------------------------------------| 
+| ------------ | ----------------------------   | ----------------------------------------------------|
+| GET          | `user/getUser/:id`             | Retorna informações do usuário                      |
 | PATCH        | `user/update/:id`              | Atualiza email e/ou senha do usuário                |
 | DELETE       | `user/delete/:id`              | Exclui usuário                                      |
 | POST         | `message/send`                 | Troca de mensagens entre usuários                   |
@@ -450,6 +451,10 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
   
 >Implementar interface front-end
 
+<br>
+  
+> Adicionar perfil de usuario para incluir ações admninstrativas(ex: listar todos os usuarios) 
+  
 ---
   
 <div id='agradecimentos'/>
