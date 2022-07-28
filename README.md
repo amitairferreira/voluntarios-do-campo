@@ -453,10 +453,61 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
     "__v": 0
   }
 }
- ```
- <br>
----
 
+```
+<br>
+  
+>A API deve retornar o seguinte json para mensagens recebidas e enviadas:
+
+```jsx
+ {
+    "message": "Menssagens recebidas:",
+    "receivedAllActive":
+        {
+            "_id": "62e2b230f33f669229b622ab",
+            "sentById": "62d73932b77c62a4fe448f93",
+            "sendToId": "62d73a2db77c62a4fe448f9c",
+            "typeUser": "Farmer",
+            "title": "Assistência técnica",
+            "text": "Oi. Boa tarde. Gostaria da sua ajuda para implementar fruticultura.",
+            "hideToFarmer": false,
+            "hideToProfessional": false,
+            "sentByName": "Aloisio Pereira",
+            "sendToName": "Amitair Ferreira ",
+            "createdAt": "2022-07-28T15:58:41.036Z",
+            "updatedAt": "2022-07-28T15:58:41.036Z",
+            "__v": 0
+        }
+}
+
+```  
+  
+```jsx
+{    
+    "message": "Mensagens enviadas:",
+    "sendAllActive":
+       {
+            "_id": "62e2b35cf33f669229b622b0",
+            "sentById": "62d73a2db77c62a4fe448f9c",
+            "sendToId": "62d73932b77c62a4fe448f93",
+            "typeUser": "Professional",
+            "title": "Retorno",
+            "text": "Boa tarde. Entrarei em contato para agendar sua visita.",
+            "hideToFarmer": false,
+            "hideToProfessional": false,
+            "sentByName": "Amitair Ferreira ",
+            "sendToName": "Aloisio Pereira",
+            "createdAt": "2022-07-28T16:03:41.181Z",
+            "updatedAt": "2022-07-28T16:03:41.181Z",
+            "__v": 0
+        }
+ }
+  
+ ```
+
+
+---
+  
 <div id='futuras'/>
   
 ## 🚧 Futuras Melhorias
