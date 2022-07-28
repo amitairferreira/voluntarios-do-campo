@@ -407,6 +407,8 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
       "updatedAt": "2022-07-19T23:05:49.127Z",
       "__v": 0
     }
+ }
+  
 ```
 <br>
   
@@ -431,7 +433,8 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
       "updatedAt": "2022-07-19T23:11:41.932Z",
       "__v": 0
     }
-
+}
+  
  ```
  <br>
   
