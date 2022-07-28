@@ -436,6 +436,22 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
  <br>
   
 >A API deve retornar o seguinte json para usuários:
+
+```jsx
+{
+  "message": "Usuário:",
+  "user": {
+    "_id": "62d84ece169ecd1183be12d2",
+    "name": "Amitair Ferreira Lima",
+    "typeUser": "Profissional",
+    "email": "amitairferreira@gmail.com",
+    "createdAt": "2022-07-20T18:51:59.276Z",
+    "updatedAt": "2022-07-20T21:04:45.312Z",
+    "__v": 0
+  }
+}
+ ```
+ <br>
 ---
 
 <div id='futuras'/>
