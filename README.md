@@ -433,6 +433,9 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
     }
 
  ```
+ <br>
+  
+>A API deve retornar o seguinte json para usuários:
 ---
 
 <div id='futuras'/>
