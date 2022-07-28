@@ -296,11 +296,13 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
   
 ### Rotas para troca de mensagens:
   
-| Método HTTP  | Endpoint                       | Descrição                                           |
-| ------------ | ----------------------------   | ----------------------------------------------------| 
-| POST         | `message/send`                 | Envia mensagem                                      |
-| GET          | `message/sendTo`               | Retorna todas as mensagens enviadas pelo usuário    |
-| GET          | `message/received`             | Retorna todas as mensagens recebidas pelo usuário   | 
+| Método HTTP  | Endpoint                               | Descrição                                               |
+| ------------ | ---------------------------------------|---------------------------------------------------------| 
+| POST         | `message/send`                         | Envia mensagem                                          |
+| GET          | `message/sendTo`                       | Retorna todas as mensagens enviadas pelo usuário        |
+| GET          | `message/received`                     | Retorna todas as mensagens recebidas pelo usuário       | 
+| PATCH        | `message/deleteMessageFarmer/:id`      | Oculta para o produtor a mensagem que deseja excluir    |
+| PATCH        | `message/deleteMessageProfessional/:id`| Oculta para o profissional a mensagem que deseja excluir|
 
 ---
 
