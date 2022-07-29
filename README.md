@@ -37,7 +37,7 @@
 * [Rotas Privadas](#rotasp)
 * [Dados para as collections](#dados)
 * [API](#api)
-* [Futuras Melhorias](#futuras)
+* [Implementações Futuras](#implementações)
 * [Agradecimentos](#agradecimentos)
 * [Sobre a autora](#autora)
 
@@ -508,9 +508,9 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 
 ---
   
-<div id='futuras'/>
+<div id='implementações'/>
   
-## 🚧 Futuras Melhorias
+## 🚧 Implementações Futuras
 
 >Implementar teste unitário ao código do projeto
 
