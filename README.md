@@ -76,7 +76,7 @@
 
 ## 📝 Link Apresentação
 
-- [Apresentação]()
+- [Apresentação](https://www.canva.com/design/DAFHkuR6_2A/3qICdPhgn6lh7fhk1fnNYQ/editutm_content=DAFHkuR6_2A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 <div id='funcionalidades'/>
