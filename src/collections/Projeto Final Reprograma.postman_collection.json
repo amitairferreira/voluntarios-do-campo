@@ -1,0 +1,659 @@
+{
+	"info": {
+		"_postman_id": "41ebb7a9-4f6c-4240-9fcf-aa16f496133d",
+		"name": "Projeto Final Reprograma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20971154"
+	},
+	"item": [
+		{
+			"name": "Retorna todos os produtores cadastrados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/farmer/all",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"farmer",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastra os produtoes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ana Lucia Monteiro\",\r\n    \"state\":\"Ceará\",\r\n    \"city\": \"Guaramiranga\",\r\n    \"road\": \"Sitio feliz\",\r\n    \"number\": 100,\r\n    \"registryCar\": \"CE-DA65DGD54155SS561HSBV4\",\r\n    \"cultivatedArea\": \"3,0 ha\",\r\n    \"activities\": \"Bovinocultura leiteira\",\r\n    \"organicCultivation\": true,\r\n    \"email\": \"analucia100@gmail.com\",\r\n    \"contact\": \"(85) 55555-5555\",\r\n    \"termOfCompromise\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/farmer/create",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"farmer",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna os produtores por cidade e estado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/farmer/byStateCity?state=Ceará&city=Aratuba",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"farmer",
+						"byStateCity"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "Ceará"
+						},
+						{
+							"key": "city",
+							"value": "Aratuba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna Produtor pelo Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/farmer/byId/62d739ccb77c62a4fe448f98",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"farmer",
+						"byId",
+						"62d739ccb77c62a4fe448f98"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualiza cadastro por id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZDg2OWI3NDQzY2YxNWE0YTMwYjg1MCIsImVtYWlsIjoiZmxAZ21haWwuY29tIiwiaWF0IjoxNjU5MDY0MjY4fQ.Z3d59W7QqyEy_PocSbkOnvqkx39Fpq9GatF4BDurpOk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"name\": \"Francisco Ferreira Lima\",\r\n            \"state\": \"Ceará\",\r\n            \"city\": \"Aratuba\",\r\n            \"road\": \"Rua Segredo\",\r\n            \"number\": 706,\r\n            \"registryCar\": \"CE-168546dckndnfjd584fd\",\r\n            \"cultivatedArea\": \"3,0 ha\",\r\n            \"activities\": \"Produção de hortaliças e fruticultura\",\r\n            \"organicCultivation\": true,\r\n            \"email\": \"fl@gmail.com\",\r\n            \"contact\": \"(85) 90000-2606\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/farmer/update/62d738cdb77c62a4fe448f90",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"farmer",
+						"update",
+						"62d738cdb77c62a4fe448f90"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleta produtor por Id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZTM1ZWFhNWQzNzAxZDNhOTE3ZTlkMCIsImVtYWlsIjoibWFyaWFAZ21haWwuY29tIiwiaWF0IjoxNjU5MDY4MzIzfQ.T1K6xIcmx-k9oqKQuOJcimFplCcJGDO9k5XfvVh6fSU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/farmer/delete/62d739ccb77c62a4fe448f98",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"farmer",
+						"delete",
+						"62d739ccb77c62a4fe448f98"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Profissional",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rafaella Abraão Moreira\",\r\n      \"profession\": \"Agrônoma\",\r\n      \"registryNumber\": \"01181\",\r\n      \"mainArea\": \"certificação de orgânicos\",\r\n      \"state\": \"Ceará\",\r\n      \"city\": \"Fortaleza\",\r\n      \"email\": \"rafaellagmail.com\",\r\n      \"contact\": \"(85) 6666-0002\",\r\n      \"termOfCompromise\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/professional/create",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"professional",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna todos profissionais",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/professional/all",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"professional",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Profissional por cidade e/ou profissão",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/professional/byCityProfession?city=Fortaleza&profession=Agrônoma",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"professional",
+						"byCityProfession"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Fortaleza"
+						},
+						{
+							"key": "profession",
+							"value": "Agrônoma"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Profissional por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/professional/byId/62d74ecab77c62a4fe448fcf",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"professional",
+						"byId",
+						"62d74ecab77c62a4fe448fcf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar cadastro de profissional pelo Id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZDg0ZWNlMTY5ZWNkMTE4M2JlMTJkMiIsImVtYWlsIjoiYW1pdGFpcmZlcnJlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTY1OTA2NTUyNH0.f0DaaH0xefGYfkLe8aEJKAgR4upKt7Dn7uVWWmia2jI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"name\": \"Amitair Ferreira\",\r\n            \"profession\": \"Agrônoma\",\r\n            \"registryNumber\": 19685568,\r\n            \"mainArea\": \"Manejo do solo e da água\",\r\n            \"state\": \"Ceará\",\r\n            \"city\": \"Aratuba\",\r\n            \"email\": \"amitairlima@gmail.com\",\r\n            \"contact\": \"(85) 1234-1515\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/professional/update/62d73a2db77c62a4fe448f9c",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"professional",
+						"update",
+						"62d73a2db77c62a4fe448f9c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar profissional pelo Id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZDg0ZWNlMTY5ZWNkMTE4M2JlMTJkMiIsImVtYWlsIjoiYW1pdGFpcmZlcnJlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTY1OTA2ODk3N30.Mm8yntya8E_fjoUzagLQ-cGNrf6dYtTEpVr0sFoMVso",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/professional/delete/62d73a2db77c62a4fe448f9c",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"professional",
+						"delete",
+						"62d73a2db77c62a4fe448f9c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rota para envio de mensagens",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sentById\": \"62d73a2db77c62a4fe448f9c\",\r\n    \"sendToId\": \"62d73932b77c62a4fe448f93\",\r\n    \"typeUser\": \"Professional\",\r\n    \"title\": \"Retorno\",\r\n    \"text\": \"Boa tarde. Entrarei em contato para agendar sua visita.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/message/send",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"message",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Todas as mensagens recebidas  pelo id do produtor ou profissional",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/message/received?sendToId=62d73a2db77c62a4fe448f9c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"message",
+						"received"
+					],
+					"query": [
+						{
+							"key": "sendToId",
+							"value": "62d73a2db77c62a4fe448f9c"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Todas as mensagens enviadas pelo id do produtor ou profissional",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/message/sendTo?sentById=62d73a2db77c62a4fe448f9c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"message",
+						"sendTo"
+					],
+					"query": [
+						{
+							"key": "sentById",
+							"value": "62d73a2db77c62a4fe448f9c"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar novo usuário",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Maria Pereira\",\r\n    \"typeUser\":\"Farmer\",\r\n    \"email\":\"maria@gmail.com\",\r\n    \"password\":\"1950\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/user/create",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login de usuário",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"amitairferreira@gmail.com\",\r\n    \"password\":\"amor011218\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://voluntarios-do-campo.herokuapp.com/user/login",
+					"protocol": "https",
+					"host": [
+						"voluntarios-do-campo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar dados do usuário com autenticação",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZDg0ZWNlMTY5ZWNkMTE4M2JlMTJkMiIsImVtYWlsIjoiYW1pdGFpcmxpbWFAZ21haWwuY29tIiwiaWF0IjoxNjU4MzUxMDIwfQ.0ZsSw9N7DHqcc7JLedewJqAQVf0_l6ewkQBNS1lVlP4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"name\":\"Amitair Ferreira Lima\",\r\n      \"typeUser\":\"Profissional\",\r\n      \"email\":\"amitairferreira@gmail.com\",\r\n      \"password\":\"amor011218\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user/update/62d84ece169ecd1183be12d2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"update",
+						"62d84ece169ecd1183be12d2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar usuário com autenticação",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/delete/62d8501b5b42e084b0b3ef76",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"delete",
+						"62d8501b5b42e084b0b3ef76"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "busar irnformações do usuário",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZDg2OWI3NDQzY2YxNWE0YTMwYjg1MCIsImVtYWlsIjoiZmxAZ21haWwuY29tIiwiaWF0IjoxNjU4ODgxMDc5fQ.5QHfub-kPGbeSWpBdujECPUah1NHXO15OIV4jhf7gmQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/getUser/62e2cd45f1d1ae337db7158b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"getUser",
+						"62e2cd45f1d1ae337db7158b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rota pra produtor excluir mensagem",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/message/deleteMessageFarmer/62e1d84b112cbe2620efeb69",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"message",
+						"deleteMessageFarmer",
+						"62e1d84b112cbe2620efeb69"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rota pra profissional excluir mensagem",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/message/deleteMessageProfessional/62e1d84b112cbe2620efeb69",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"message",
+						"deleteMessageProfessional",
+						"62e1d84b112cbe2620efeb69"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
