@@ -243,6 +243,8 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 >Heroku: https://voluntarios-do-campo.herokuapp.com/
 
 > Utilize o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download/) para testar os endpoints da API localmente.
+  
+> Sugestão: utilize a [collection](https://github.com/amitairferreira/voluntarios-do-campo/tree/master/src/collections) para realizar os testes.
 
 ---
   
