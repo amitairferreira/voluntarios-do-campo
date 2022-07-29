@@ -143,8 +143,8 @@ const deleteProfis = async (req, res) => {
     await professional.delete()
 
     res.status(200).json({
-      message: 'Cadastro deletado com sucesso.',
-      professional
+      message: 'Cadastro deletado com sucesso.'
+  
     })
   } catch (error) {
     res.status(500).json({

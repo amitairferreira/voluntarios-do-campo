@@ -148,8 +148,8 @@ const deleteFarmer = async (req, res) => {
     await farmer.delete()
 
     res.status(200).json({
-      message: 'Cadastro deletado com sucesso.',
-      farmer
+      message: 'Cadastro deletado com sucesso.'
+    
     })
 
   } catch (error) {
