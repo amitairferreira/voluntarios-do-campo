@@ -531,7 +531,11 @@ Finalize criando um novo Pull Request com as contribuições para o projeto orig
 <br>
   
 > Adicionar perfil de usuario para incluir ações admninstrativas (ex: listar todos os usuarios) 
-  
+
+<br>
+
+> Buscar parcerias com instituições de ensino para a realização de atividades de extensão rural
+
 ---
   
 <div id='agradecimentos'/>
